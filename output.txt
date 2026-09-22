@@ -1,58 +1,70 @@
-Script started on Mon Sep 21 21:17:10 2026
-Restored session: Mon Sep 21 21:16:47 EDT 2026
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air a1-work-main % [K[?2004h[7mpwd[27m
-[K[A[57C[27mp[27mw[27md[1B[K[?2004l
+$ pwd
 /Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air a1-work-main % [K[?2004h[7mls -l[27m
-[K[A[57C[27ml[27ms[27m [27m-[27ml[1B[K[?2004l
-total 24
-drwxrwxrwx@ 3 ankitasachdeva  staff   96 Sep 11 21:45 ExternalResources
--rw-rw-rw-@ 1 ankitasachdeva  staff   98 Sep 11 21:45 hello.c
--rw-r--r--  1 ankitasachdeva  staff   43 Sep 21 21:17 output.txt
-drwxr-xr-x  4 ankitasachdeva  staff  128 Sep 21 21:11 practice
--rw-rw-rw-@ 1 ankitasachdeva  staff  129 Sep 11 21:45 README.md
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air a1-work-main % [K[?2004h[7mwhoami[27m
-[K[A[57C[27mw[27mh[27mo[27ma[27mm[27mi[1B[K[?2004l
+
+$ ls -l
+total 2880
+-rw-r--r--@ 1 ankitasachdeva  staff  429320 Sep 21 22:00 editor.png
+drwxrwxrwx@ 3 ankitasachdeva  staff      96 Sep 11 21:45 ExternalResources
+-rwxr-xr-x  1 ankitasachdeva  staff   33432 Sep 21 21:40 hello
+-rw-rw-rw-@ 1 ankitasachdeva  staff     168 Sep 21 21:40 hello.c
+drwxr-xr-x  5 ankitasachdeva  staff     160 Sep 21 21:17 practice
+-rw-rw-rw-@ 1 ankitasachdeva  staff     129 Sep 11 21:45 README.md
+-rw-r--r--@ 1 ankitasachdeva  staff  996042 Sep 21 22:10 repo.png
+
+$ whoami
 ankitasachdeva
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air a1-work-main % [K[?2004h[7mcd practice[27m
-[K[A[57C[27mc[27md[27m [27mp[27mr[27ma[27mc[27mt[27mi[27mc[27me[1B[K[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main/practice[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air practice % [K[?2004h[7mcat fruits.txt[27m
-[K[A[53C[27mc[27ma[27mt[27m [27mf[27mr[27mu[27mi[27mt[27ms[27m.[27mt[27mx[27mt[1B[K[?2004l
+
+$ cd practice
+
+$ cat fruits.txt
 banana
 apple
 cherry
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main/practice[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air practice % [K[?2004h[7msort fruits.txt[27m
-[K[A[53C[27ms[27mo[27mr[27mt[27m [27mf[27mr[27mu[27mi[27mt[27ms[27m.[27mt[27mx[27mt[1B[K[?2004l
+
+$ sort fruits.txt
 apple
 banana
 cherry
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main/practice[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air practice % [K[?2004h[7mnl fruits.txt[27m
-[K[A[53C[27mn[27ml[27m [27mf[27mr[27mu[27mi[27mt[27ms[27m.[27mt[27mx[27mt[1B[K[?2004l
+
+$ nl fruits.txt
      1	banana
      2	apple
      3	cherry
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main/practice[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air practice % [K[?2004h[7mcp fruits.txt backup2.txt[27m
-[K[A[53C[27mc[27mp[27m [27mf[27mr[27mu[27mi[27mt[27ms[27m.[27mt[27mx[27mt[27m [27mb[27ma[27mc[27mk[27mu[27mp[27m2[27m.[27mt[27mx[27mt[1B[K[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main/practice[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air practice % [K[?2004h[7mls[27m
-[K[A[53C[27ml[27ms[1B[K[?2004l
-backup.txt	backup2.txt	fruits.txt
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main/practice[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air practice % [K[?2004h[7mgrep apple fruits.txt[27m
-[K[A[53C[27mg[27mr[27me[27mp[27m [27ma[27mp[27mp[27ml[27me[27m [27mf[27mr[27mu[27mi[27mt[27ms[27m.[27mt[27mx[27mt[1B[K[?2004l
+
+$ cp fruits.txt backup3.txt
+
+$ ls
+backup.txt
+backup2.txt
+backup3.txt
+fruits.txt
+
+$ grep apple fruits.txt
 apple
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main/practice[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air practice % [K[?2004h[7mcut -c1-3 fruits.txt[27m
-[K[A[53C[27mc[27mu[27mt[27m [27m-[27mc[27m1[27m-[27m3[27m [27mf[27mr[27mu[27mi[27mt[27ms[27m.[27mt[27mx[27mt[1B[K[?2004l
+
+$ cut -c1-3 fruits.txt
 ban
 app
 che
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main/practice[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air practice % [K[?2004h[7mps[27m[27mp[27ms[?2004l
+
+$ echo hello world
+hello world
+
+$ ps
   PID TTY           TIME CMD
-23402 ttys000    0:00.15 -zsh
-23849 ttys000    0:00.01 script output.txt
-23850 ttys001    0:00.05 /bin/zsh -i
-[1m[7m%[27m[1m[0m                                                                                                                 ]7;file://Ankitas-MacBook-Air.local/Users/ankitasachdeva/Downloads/a1-work-main/a1-work-main/practice[0m[27m[24m[J(base) ankitasachdeva@Ankitas-MacBook-Air practice % [K[?2004heexit[?2004l
+23402 ttys000    0:00.24 -zsh
 
-Saving session...
-...saving history...truncating history files...
-...completed.
+$ mkdir testdir
 
-Script done on Mon Sep 21 21:18:29 2026
+$ rmdir testdir
+
+$ touch newfile.txt
+
+$ mv newfile.txt renamed.txt
+
+$ ls
+backup.txt
+backup2.txt
+backup3.txt
+fruits.txt
+renamed.txt
